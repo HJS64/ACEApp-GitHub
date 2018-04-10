@@ -21,7 +21,7 @@ namespace ACEApp.Net
             base.OnStart();
 
             // Intialisation of Microsoft AppCenter: iOS and Droid
-            AppCenter.Start("ios=cdab3353-65e9-415d-8711-6275c82b5874; android=fb82d4fa-27e8-48e5-87e0-217dd9c69b39;", typeof(Analytics), typeof(Crashes));
+            AppCenter.Start("ios=9cc72b5c-569a-4bd7-bc3f-252cccc5a31e; android=fb82d4fa-27e8-48e5-87e0-217dd9c69b39;", typeof(Analytics), typeof(Crashes));
         }
     }
 }
