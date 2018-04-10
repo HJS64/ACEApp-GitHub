@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="ACEApp.Net.ViewLayer.Pages.StartPage"
+    BackgroundColor="Teal">
+    
+    <ContentPage.Content>
+        <StackLayout
+            Orientation="Vertical"
+            HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+            Margin="20,40"
+            BackgroundColor="Silver">
+
+            <Label
+                Text="StartPage"
+                HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+                HorizontalOptions="FillAndExpand"
+                HeightRequest="40" />
+
+            <Label
+                Text="Automatic build in AppCener on push code"
+                LineBreakMode="WordWrap"
+                HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="StartAndExpand" />
+            
+        </StackLayout>
+            
+    </ContentPage.Content>
+</ContentPage>
